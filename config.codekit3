@@ -46,6 +46,22 @@
 		"oAP": "/dev/content/animation.html",
 		"oF": 1
 		},
+	"/dev/content/clouds/clouds.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/clouds/clouds.html",
+		"oF": 1
+		},
+	"/dev/content/ice-skating/ice-skating.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/ice-skating/ice-skating.html",
+		"oF": 1
+		},
 	"/dev/content/start/earth.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -93,6 +109,17 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
+		},
+	"/dev/js/clouds/clouds.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/clouds/clouds-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dev/js/scripts.js": {
 		"bF": 4,

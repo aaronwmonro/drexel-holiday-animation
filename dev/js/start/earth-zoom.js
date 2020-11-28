@@ -8,7 +8,11 @@ GSDevTools.create();
 
 
 const earthZoomTL = gsap.timeline();
-earthZoomTL.to("#start-zoom",  {duration: 4, scale:60, ease: "power3.in"}, "zoom")
+earthZoomTL.to("#clip-earth", {duration: 5.5, scale:70, ease: "power3.in"}, "zoom")
+.to("#clouds", {duration: 5.5, scale:5, x:-500, y:-350, ease: "power3.in"}, "zoom")
+.from("#land-move", {duration: 5, y:-20, x:80}, "zoom")
+.to("#start-zoom", {duration: 2, alpha: 0, ease: "none"})
+
 // .to("#start-zoom",  {duration: 1, scale:67})
             // .from("#earth",  {duration: 5, scale:65, ease: "power3.in"}, "zoom")
             
@@ -17,4 +21,4 @@ earthZoomTL.to("#start-zoom",  {duration: 4, scale:60, ease: "power3.in"}, "zoom
         export function earthZoomAnimation(){
             return earthZoomTL; 
         }
-        gsap.set("#start-zoom", {transformOrigin: "725 660 "});
+        gsap.set("#clip-earth", {transformOrigin: "250 150"});

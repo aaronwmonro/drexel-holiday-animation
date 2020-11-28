@@ -441,3 +441,7 @@ textarea {
 #drexel-animation > div svg {
   width: 100%;
 }
+
+.cloud-orgins {
+  opacity: 0;
+}

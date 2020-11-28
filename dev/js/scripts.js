@@ -23,9 +23,11 @@ shadowsAnimation();
 
 import {earthZoomAnimation} from "./start/earth-zoom.js";
 
+import {cloudAnimation} from "./clouds/clouds.js";
 
 const mainTL = gsap.timeline();
 
-mainTL.add(earthZoomAnimation(), "+=.75")
+mainTL.add(earthZoomAnimation())
+.add(cloudAnimation(), "-=3.25")
 
         ;
