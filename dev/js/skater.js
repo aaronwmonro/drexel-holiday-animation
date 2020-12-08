@@ -85,6 +85,6 @@ const snowFallTL = gsap.timeline({repeat: -1, defaults: {
  
   ;
 
-  gsap.set(".snow-flakes",{ transformOrigin: "center"});
+  gsap.set(".snow-flake",{ transformOrigin: "center"});
 
 export function snowFallAnimation(){ return snowFallTL; }
