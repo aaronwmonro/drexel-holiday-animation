@@ -54,13 +54,29 @@
 		"oAP": "/dev/content/clouds/clouds.html",
 		"oF": 1
 		},
-	"/dev/content/ice-skating/ice-skating.kit": {
+	"/dev/content/ice/drexel-logo.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/ice-skating/ice-skating.html",
+		"oAP": "/dev/content/ice/drexel-logo.html",
 		"oF": 1
+		},
+	"/dev/content/ice/ice.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/ice/ice.html",
+		"oF": 1
+		},
+	"/dev/content/ice/snow.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/ice/snow.html",
+		"oF": 0
 		},
 	"/dev/content/start/earth.kit": {
 		"cB": 0,
@@ -121,6 +137,39 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/final.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/final-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/ice/ice.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/ice/ice-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/majors.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/majors-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/scripts.js": {
 		"bF": 4,
 		"ft": 64,
@@ -129,6 +178,17 @@
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/skater.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/skater-min.js",
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},

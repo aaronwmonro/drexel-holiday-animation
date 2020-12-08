@@ -8,15 +8,15 @@ GSDevTools.create();
 
 
 const cloudTL = gsap.timeline();
-cloudTL.fromTo("#clouds-zoom", {alpha:0, duration:2}, {alpha:1, scale:1.2, duration:2, ease: "none"})
-.to("#cloud-1", {duration:1, scale:3, ease: "power2.in"}, "-=1.8 zoom")
-.to("#cloud-2", {duration:1.5, scale:4, ease: "power2.in"}, "-=1.8 zoom")
-.to("#cloud-3", {duration:2, scale:3, ease: "power2.in"}, "-=1.8 zoom")
-.to("#cloud-4", {duration:2.5, scale:4, ease: "power2.in", y:100}, "-=1.8 zoom")
-.to("#cloud-5", {duration:3, scale:4, ease: "power3.in", x:-600, y:-500}, "-=1.8 zoom")
-.to("#cloud-6", {duration:3.5, scale:4, ease: "power3.in"}, "-=1.8 zoom")
-.to("#cloud-7", {duration:4, scale:4, ease: "power3.in"}, "-=1.8 zoom")
-.to("#cloud-8", {duration:5, scale:3, ease: "power3.in"}, "-=1.8 zoom")
+cloudTL.fromTo("#clouds-zoom", {alpha:0, duration:.5}, {alpha:1, scale:1.2, duration:.8, ease: "none"})
+.to("#cloud-1", {duration:1, scale:3,x:-100, ease: "power2.in"}, "-=.8 zoom")
+.to("#cloud-2", {duration:1.25, scale:4, ease: "power2.in"}, "-=.8 zoom")
+.to("#cloud-3", {duration:1.5, scale:3, ease: "power2.in"}, "-=.8 zoom")
+.to("#cloud-4", {duration:1.75, scale:4, ease: "power2.in", y:100}, "-=.8 zoom")
+.to("#cloud-5", {duration:2, scale:4, ease: "power3.in", x:-600, y:-500}, "-=.5 zoomTwo")
+.to("#cloud-6", {duration:2.25, scale:4, ease: "power3.in"}, "-=.5 zoomTwo")
+.to("#cloud-7", {duration:2.5, scale:4, ease: "power3.in"}, "-=.5 zoomTwo")
+.to("#cloud-8", {duration:3, scale:3, ease: "power3.in"}, "-=.5 zoomTwo")
 
 // .fromTo("#cloud-1", {x: -200, y:-200, duration: 2, scale:2}, {duration: 2, scale:7}, "cloudOne")
 // .to("#cloud-1",  {duration: .5, alpha: 1, ease: "none"}, "cloudOne")

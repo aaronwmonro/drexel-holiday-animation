@@ -445,3 +445,23 @@ textarea {
 .cloud-orgins {
   opacity: 0;
 }
+
+#dragon-svg {
+  position: absolute;
+}
+
+#dragon-path {
+  display: none;
+}
+
+#majors-path {
+  display: none;
+}
+
+#final-path {
+  display: none;
+}
+
+#scarf-morph {
+  visibility: hidden;
+}
