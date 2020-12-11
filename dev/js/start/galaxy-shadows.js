@@ -1,10 +1,10 @@
 import {gsap} from "gsap";
 
 import {CustomEase} from "gsap/CustomEase";
-import {GSDevTools} from "gsap/GSDevTools";
-gsap.registerPlugin(GSDevTools, CustomEase);
+// import {GSDevTools} from "gsap/GSDevTools";
+gsap.registerPlugin( CustomEase);
 
-GSDevTools.create();
+// GSDevTools.create();
 
 
 

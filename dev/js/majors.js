@@ -5,10 +5,10 @@ console.log("gsap");
 
 // gsap.registerPlugin(DrawSVGPlugin);
 import {CustomEase} from "gsap/CustomEase";
-import {GSDevTools} from "gsap/GSDevTools";
+// import {GSDevTools} from "gsap/GSDevTools";
 import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
 import {MotionPathPlugin} from "gsap/MotionPathPlugin";
-gsap.registerPlugin(GSDevTools, CustomEase, MotionPathPlugin, DrawSVGPlugin);
+gsap.registerPlugin(CustomEase, MotionPathPlugin, DrawSVGPlugin);
 
 const majorsTL = gsap.timeline();
 

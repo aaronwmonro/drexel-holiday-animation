@@ -434,9 +434,7 @@ textarea {
 #drexel-animation > div {
   grid-area: motion;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: #000;
 }
 #drexel-animation > div svg {
   width: 100%;
@@ -464,4 +462,12 @@ textarea {
 
 #scarf-morph {
   visibility: hidden;
+}
+
+.snow-flakes {
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background-color: #fff;
+  display: inline-block;
 }

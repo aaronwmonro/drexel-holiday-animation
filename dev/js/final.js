@@ -1,9 +1,9 @@
 import {gsap} from "gsap";
 import {CustomEase} from "gsap/CustomEase";
-import {GSDevTools} from "gsap/GSDevTools";
+// import {GSDevTools} from "gsap/GSDevTools";
 import {DrawSVGPlugin} from "gsap/DrawSVGPlugin";
 import {MotionPathPlugin} from "gsap/MotionPathPlugin";
-gsap.registerPlugin(GSDevTools, CustomEase, MotionPathPlugin, DrawSVGPlugin);
+gsap.registerPlugin(CustomEase, MotionPathPlugin, DrawSVGPlugin);
 
 
 const finalTL = gsap.timeline();
@@ -29,13 +29,15 @@ export function finalAnimation(){
 
 const finalTextTL = gsap.timeline();
 
-finalTextTL.from("#peace-on-earth", {y:-20, duration: .5, alpha:0})
-.from("#wishing-line-one", {y:-20, duration: .5, alpha:0}, "-=.2")
+finalTextTL.from(".stagger-letters", {y:-40, duration: .5, alpha:0, stagger: {
+    each: 0.07
+  }})
+.from("#wishing-line-one", {y:-20, duration: .5, alpha:0}, "-=.5")
 .from("#wishing-line-two", {y:-20, duration: .5, alpha:0}, "-=.25")
-.from("#your-friends", {y:-20, duration: .5, alpha:0}, "-=.2")
-.from("#drexel-logo", {y:220, duration: .5, alpha:0}, "-=.2")
-.from("#dragon-logo", {xPercent:-30, duration: 1.5, alpha: 0}, "+=.5")
-.from("#text-logo", {xPercent:30, duration: 1.5, alpha: 0}, "-=1.5")
+.from("#your-friends", {y:-20, duration: .5, alpha:0}, "-=.28")
+.from("#drexel-logo", {y:-30, duration: .5, alpha:0}, "-=.2")
+.from("#dragon-logo", {xPercent:-50, duration: 1.5, alpha: 0}, "+=.4")
+.from("#text-logo", {xPercent:30, duration: 1.5, alpha: 0}, "-=1.4")
 
 
 ;     
