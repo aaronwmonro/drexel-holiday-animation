@@ -6,13 +6,16 @@
         display: grid;
         grid-template-columns: auto 70% auto;
         grid-template-areas: ". motion .";
+        
         >div{
+            
             grid-area: motion;
-            height: 100vh;
+            height: 720px;
+            width: 1280px;
             // display: flex;
             // align-items: center;
             // justify-content: center;
-            background-color: $black;
+            // background-color: $black;
     
             svg{
                 width: 100%;

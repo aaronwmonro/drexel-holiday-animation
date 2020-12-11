@@ -433,8 +433,8 @@ textarea {
 }
 #drexel-animation > div {
   grid-area: motion;
-  height: 100vh;
-  background-color: #000;
+  height: 720px;
+  width: 1280px;
 }
 #drexel-animation > div svg {
   width: 100%;
